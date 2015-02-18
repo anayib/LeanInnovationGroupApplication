@@ -1,0 +1,66 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+ font-family: 'Open Sans', sans-serif;
+ text-align: center;
+}
+
+#container-total{
+
+background-color:black;
+margin-top: -20px;
+
+
+
+
+}
+
+#containerPrimario{
+margin-bottom: 200px;
+color: white;
+margin-top: 200px;
+}
+
+
+#firstbutton{
+
+margin-top: 30px;
+}
+
+#navbarCSS{
+    background-color: transparent;
+}
+
+.glyphicon{
+margin-right: 10px;
+}
+
+h5 {
+
+    padding:10px;
+    font-size: 20px;
+}
+
+#containerEnqueteAyudamos{
+
+    background-color: #bdc3c7;
+
+}
+
+
+/* ========= */
+
+@media(max-width:768px){
+	 h3, h5{
+
+	  font-size: 30px;
+	}
+
+	a{
+
+	font-size: 30px;
+
+	}
+
+}
